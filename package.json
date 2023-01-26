@@ -1,0 +1,82 @@
+{
+  "name": "react-typescript-material",
+  "version": "1.2.7",
+  "description": "React + Material UI + Auth starter using TypeScript",
+  "author": {
+    "name": "Anton Karpenko",
+    "email": "i@karpolan.com",
+    "url": "https://karpolan.com"
+  },
+  "private": true,
+  "keywords": [
+    "react",
+    "typescript",
+    "material",
+    "material ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karpolan/react-typescript-material-ui-with-auth-starter.git"
+  },
+  "dependencies": {
+    "@date-io/date-fns": "^2.14.0",
+    "@date-io/dayjs": "^2.14.0",
+    "@date-io/luxon": "^2.14.0",
+    "@date-io/moment": "^2.14.0",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "latest",
+    "@mui/lab": "*",
+    "@mui/material": "latest",
+    "@mui/styles": "latest",
+    "autoprefixer": "^9.8.7",
+    "date-fns": "latest",
+    "postcss": "^8.4.14",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "latest",
+    "tailwindcss": "^3.0.24",
+    "typescript": "latest",
+    "validate.js": "latest",
+    "web-vitals": "latest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router-dom": "latest",
+    "prettier": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "yarn -s && react-scripts start",
+    "build": "react-scripts build",
+    "type": "tsc",
+    "format": "node_modules/.bin/prettier src --write",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
